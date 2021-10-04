@@ -215,6 +215,9 @@ void loop()
      if(gas_value==HIGH)
      {
        digitalWrite(buzzer2, HIGH);
+       //fan on to emit gas from room
+       digitalWrite(fan, HIGH);
+       digitalWrite(fan2, HIGH);
        delay(200);
      }
      else
