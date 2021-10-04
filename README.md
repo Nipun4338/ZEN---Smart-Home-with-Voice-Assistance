@@ -1,7 +1,7 @@
 # ZEN - Smart Home with Voice Assistance
 A proteus-arduino IoT based project for MSD Lab.</br>
 
-   ![Project](Project 2.png)
+   ![Project](Project2.png)
 
 ## Components
 
