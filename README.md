@@ -1,4 +1,4 @@
-# Voice Controlled Smart Home System
+# ZEN - Smart Home with Voice Assistance
 A proteus-arduino IoT based project for MSD Lab.</br>
 
    ![Project](Project.png)
