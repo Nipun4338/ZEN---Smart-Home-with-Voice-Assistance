@@ -66,9 +66,11 @@ void setup()
 void loop()
 {
   char customKey = customKeypad.getKey();
+  //get pir sensor value
   pirStat=digitalRead(pirPin);
   if (customKey)
   {
+    //append string if press other keys
     if(customKey!='=' && customKey!='.')
     {
       check=check+customKey;
@@ -76,6 +78,7 @@ void loop()
       lcd.begin(16, 2);
       lcd.print(check);
     }
+    //clean password screen
     else if(customKey=='.')
     {
       check="";
@@ -85,6 +88,7 @@ void loop()
     }
     else
     {
+      //welcome if matched
       if(check==password)
       {
         lcd.clear();
@@ -113,8 +117,10 @@ void loop()
       check="";
     }
   }
+  //after enter
   if(f == 1)
   {
+    //check voice command
     while(Serial2.available())
     {
       delay(3);
@@ -179,6 +185,8 @@ void loop()
           digitalWrite(light, HIGH);
           digitalWrite(light2, LOW);
         }
+
+        //get temperature sensor value
         temp=analogRead(lm35);
         float milivolts=(temp/1024.0)*5*1000;
         float cel=milivolts/10;
@@ -201,7 +209,8 @@ void loop()
       }
       voice = "";
      }
-  
+
+     //get gas sensor value
      int gas_value = digitalRead(MQPin);
      if(gas_value==HIGH)
      {
@@ -215,6 +224,8 @@ void loop()
 
      lcd2.print("  WATER LEVEL : ");
      lcd2.setCursor(0, 1);
+
+     //get water sensor value
      resval = analogRead(respin);
      if (resval<=100)
      {
@@ -238,6 +249,7 @@ void loop()
      }
      
   }
+  // not signed but motion detected
   else if(f==0)
   {
     if(pirStat==HIGH)
