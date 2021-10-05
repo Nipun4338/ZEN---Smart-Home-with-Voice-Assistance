@@ -55,7 +55,7 @@
    
    - Download Arduino IDE and Proteus 8 Professional.
    - Download zip file of the project.
-   - Copy LIBRARY folder and paste to C Drive>Program Files (x86)>Labcenter Electronics>Proteus 8 Professional and overwrite existing folder.
+   - Copy LIBRARY folder and paste to C Drive>Program Files (x86)>Labcenter Electronics>Proteus 8 Professional by overwrite existing folder.
    - Open final_project.ino to Arduino IDE, select board as Arduino mega 2560 from Tools. Then click verify.
    - Copy the hex file path from output.
    - Open project in Proteus.
