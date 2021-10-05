@@ -1,12 +1,13 @@
 # ZEN - Smart Home with Voice Assistance
-Nowadays, houses are going through a swift change to make them more
-and more comfortable. Home automation is an example of this. Here, the target
-is to build a project where the homeowners can control some of the
-appliances of the house, like the fan and the light via their voice. Safety and security
-are also emphasized in this project. As such, this project will also have a
-fire-alarm in case of fire. Moreover, in this project, the homeowners will
-have the authentication system to prevent break-in. Finally, there will also
-be a water level sensor for the water tank of the house.
+
+   Nowadays, houses are going through a swift change to make them more
+   and more comfortable. Home automation is an example of this. Here, the target
+   is to build a project where the homeowners can control some of the
+   appliances of the house, like the fan and the light via their voice. Safety and security
+   are also emphasized in this project. As such, this project will also have a
+   fire-alarm in case of fire. Moreover, in this project, the homeowners will
+   have the authentication system to prevent break-in. Finally, there will also
+   be a water level sensor for the water tank of the house.
 
 
    ![Project](Project2.png)
@@ -17,7 +18,7 @@ be a water level sensor for the water tank of the house.
    - LCD
    - Keypad-SmallCalc
    - Breadboard
-   - Gas Sensor
+   - MQ-04(Gas Sensor)
    - Buzzer
    - Resistor
    - Cables and Connectors
@@ -30,7 +31,7 @@ be a water level sensor for the water tank of the house.
    - Bluetooth Module HC-05 v1
    - Capacitor
    - Inductor
-   - Temperature Sensor
+   - LM35(Temperature Sensor)
    - Relay Model
    - Water Sensor
    - PIR Sensor(Motion Detection)
@@ -51,6 +52,15 @@ be a water level sensor for the water tank of the house.
    a high level to save goods and wastage of water.
 
 ## Installation
+   
+   - Download Arduino IDE and Proteus 8 Professional.
+   - Download zip file of the project.
+   - Copy LIBRARY folder and paste to C Drive>Program Files (x86)>Labcenter Electronics>Proteus 8 Professional and overwrite existing folder.
+   - Open final_project.ino to Arduino IDE, select board as Arduino mega 2560 from Tools. Then click verify.
+   - Copy the hex file path from output.
+   - Open project in Proteus.
+   - Paste the path in Arduino Mega and select hex paths of PIR, Water sensor from LIBRARY folder.
+   - Run the simulation.
 
 ## Future Works
    - SMS and Call-based security using GSM Module.
