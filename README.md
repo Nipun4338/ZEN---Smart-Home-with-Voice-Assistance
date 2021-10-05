@@ -13,43 +13,46 @@ be a water level sensor for the water tank of the house.
 
 ## Components
 
-   ● Arduino Mega</br>
-   ● LCD</br>
-   ● Keypad-SmallCalc</br>
-   ● Breadboard</br>
-   ● Gas Sensor</br>
-   ● Buzzer</br>
-   ● Resistor</br>
-   ● Cables and Connectors</br>
-   ● LED</br>
-   ● Diode</br>
-   ● DC Motor</br>
-   ● LDR</br>
-   ● Transistor</br>
-   ● Battery</br>
-   ● Bluetooth Module HC-05 v1</br>
-   ● Capacitor</br>
-   ● Inductor</br>
-   ● Temperature Sensor</br>
-   ● Relay Model</br>
-   ● Water Sensor
+   - Arduino Mega
+   - LCD
+   - Keypad-SmallCalc
+   - Breadboard
+   - Gas Sensor
+   - Buzzer
+   - Resistor
+   - Cables and Connectors
+   - LED
+   - Diode
+   - DC Motor
+   - LDR
+   - Transistor
+   - Battery
+   - Bluetooth Module HC-05 v1
+   - Capacitor
+   - Inductor
+   - Temperature Sensor
+   - Relay Model
+   - Water Sensor
+   - PIR Sensor(Motion Detection)
    
 ## Working Procedures
 
-   ● Owner will enter his home by entering a password on the keypad.
+   - Owner will enter his home by entering a password on the keypad.
    If the password matches, the LCD will show, “Welcome!”. Else,
-   after entering the wrong password 3 times, the lcd will show ‘Intruder Alert!!!’ and by using gsm module, message to the owner will be send. And if the user hasn't entered the home but there is any motion detection, alarm will be on.</br></br>
-   ● There will be voice controlled lights and fans. Users can
+   after entering the wrong password 3 times, the lcd will show ‘Intruder Alert!!!’ and by using gsm module, message to the owner will be send. And if the user hasn't entered the home but there is any motion detection, alarm will be on.
+   - There will be voice controlled lights and fans. Users can
    control lights and fans by commanding over an android app. One
    fan will only work if the temperature is below 27 centigrade,
    else both of the fans will work. The same goes for the lights in
-   which case both lights will be on if brightness level is low, else only one will work.</br></br>
-   ● There will be an automated fire alert system, which will detect smoke
-   and press the buzzer to alarm people. It will also remove the gas by using the fans.</br></br>
-   ● There will be an alarm if the water tank of the house gets filled up to
+   which case both lights will be on if brightness level is low, else only one will work.
+   - There will be an automated fire alert system, which will detect smoke
+   and press the buzzer to alarm people. It will also remove the gas by using the fans.
+   - There will be an alarm if the water tank of the house gets filled up to
    a high level to save goods and wastage of water.
 
 ## Installation
 
 ## Future Works
    - SMS and Call-based security using GSM Module.
+   - Create an AI based voice assistance.
+
