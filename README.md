@@ -60,6 +60,7 @@
    - Copy the hex file path from output.
    - Open project in Proteus.
    - Paste the path in Arduino Mega and select hex paths of PIR, Water sensor from LIBRARY folder.
+   - Download Arduino Voice Control Android app and connect the phone with the pc using bluetooth.
    - Run the simulation.
 
 ## Future Works
